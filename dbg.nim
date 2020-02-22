@@ -22,4 +22,5 @@ macro decho*(elem: untyped) =
 when isMainModule:
   timeIt("foo"):
     decho "foo"
+  decho("foo" & "baa" & $123)
 
